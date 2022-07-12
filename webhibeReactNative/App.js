@@ -20,7 +20,7 @@ const App = () => {
 
       <NavigationContainer ref={r => Navigation.setTopLevelNavigator(r)}>
         <Stack.Navigator
-          initialRouteName="AuthLogin"
+          initialRouteName="MainHome"
           screenOptions={{
             headerShown: false,
             gestureEnabled: false,
@@ -29,7 +29,7 @@ const App = () => {
 
           {/* <Stack.Screen name="Onbording" component={Onbording} /> */}
           <Stack.Screen name="AuthLogin" component={AuthStack} />
-          {/* <Stack.Screen name='MainHome' component={MainStack} /> */}
+          <Stack.Screen name='MainHome' component={MainStack} />
 
 
 

@@ -9,6 +9,7 @@ import Navigation from '../Service/Navigation';
 
 import Materia from 'react-native-vector-icons/MaterialCommunityIcons';
 import Icon from 'react-native-vector-icons/AntDesign';
+import Home from '../Screen/Home/Home';
 
 
 const Tab = createBottomTabNavigator();
@@ -34,11 +35,7 @@ const NavigationBottomTab = () => {
           tabBarShowLabel: false,
           tabBarIcon: ({ focused }) => (
             <>
-              {focused ?
-                <ImageBackground style={{ width: 70, height: 70,alignItems:"center",justifyContent:"center" }} source={require('../Assets/Image/Ellipse6.png')}>
-                  <Icon name={'home'} color={focused ? "#ffffff" : "#515151"} size={26} />
-                </ImageBackground>
-                : <Icon name={'home'} color={focused ? "#ffffff" : "#515151"} size={26} />}
+             <Icon name={'home'} color={focused ? "#ffffff" : "#515151"} size={26} />
             </>
           ),
 
