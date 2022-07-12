@@ -2,7 +2,7 @@
   "name": "webhibeReactNative",
   "version": "0.0.1",
   "description": "React Native Template",
-  "repository": "git@github.com:Esemesek/react-native-new-template.git",
+  "repository": "https://github.com/subham067/webhibeReactNative.git",
   "author": "Subham Ghosh",
   "license": "MIT"
 }
